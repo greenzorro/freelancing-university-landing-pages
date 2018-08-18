@@ -1,0 +1,223 @@
+* {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+html, body {
+  height: 100%; }
+
+html {
+  line-height: 1;
+  font-size: 100px; }
+
+body {
+  font-family: -apple-system,Helvetica,Arial,"PingFang SC","Source Han Sans SC","Microsoft YaHei","WenQuanYi MicroHei",sans-serif;
+  line-height: 1.6;
+  font-size: 0.16rem;
+  color: #333;
+  background: #fff; }
+
+a {
+  color: #FC8222; }
+
+input, textarea, button {
+  font-family: -apple-system,Helvetica,Arial,"PingFang SC","Source Han Sans SC","Microsoft YaHei","WenQuanYi MicroHei",sans-serif; }
+
+::selection {
+  background: #193F6B;
+  color: #fff; }
+
+::-moz-selection {
+  background: #193F6B;
+  color: #fff; }
+
+@media only screen and (max-width: 767px) {
+  .bg_wrap {
+    padding: 0.4rem 0.2rem; }
+
+  h2 {
+    margin-bottom: 0.2rem;
+    text-align: center;
+    font-size: 0.24rem;
+    font-weight: bold; } }
+@media only screen and (min-width: 768px) {
+  .bg_wrap {
+    width: 11.8rem;
+    margin: 0 auto;
+    padding: 0.6rem 0; }
+
+  h2 {
+    margin-bottom: 0.4rem;
+    text-align: center;
+    font-size: 0.34rem;
+    font-weight: bold; } }
+.header {
+  background: #fff; }
+  .header .bg_wrap {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0; }
+    .header .bg_wrap img {
+      display: block;
+      height: 100%; }
+    .header .bg_wrap p a {
+      margin-left: 0.2rem;
+      color: #193F6B; }
+
+@media only screen and (max-width: 767px) {
+  .header {
+    height: 0.5rem; }
+    .header h1 {
+      height: 40%; }
+    .header p a {
+      font-size: 0.12rem; } }
+@media only screen and (min-width: 768px) {
+  .header {
+    height: 0.8rem; }
+    .header h1 {
+      height: 50%; }
+    .header p a {
+      font-size: 0.2rem; } }
+.hero {
+  background-color: #193F6B;
+  background-repeat: no-repeat; }
+  .hero .bg_mask {
+    background: rgba(25, 63, 107, 0.5); }
+    .hero .bg_mask .bg_wrap .instruction {
+      color: #fff; }
+    .hero .bg_mask .bg_wrap .form {
+      overflow: hidden;
+      background: #fff;
+      border-radius: 0.04rem;
+      position: relative; }
+      .hero .bg_mask .bg_wrap .form h2 {
+        text-align: center; }
+
+@media only screen and (max-width: 767px) {
+  .hero {
+    background-position: center top;
+    background-size: 300%; }
+    .hero .bg_wrap .instruction {
+      padding-bottom: 0.2rem; }
+      .hero .bg_wrap .instruction h1 {
+        font-size: 0.2rem; }
+      .hero .bg_wrap .instruction p {
+        font-size: 0.12rem; }
+    .hero .bg_wrap .form {
+      padding: 0 0.1rem; }
+      .hero .bg_wrap .form h2 {
+        margin: 0.2rem 0;
+        font-size: 0.16rem; } }
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-position: center center;
+    background-size: cover; }
+    .hero .bg_wrap {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: space-around;
+      justify-content: space-around;
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+      -webkit-align-items: center;
+      align-items: center; }
+      .hero .bg_wrap .instruction {
+        -webkit-flex: 0 1 45%;
+        flex: 0 1 45%; }
+        .hero .bg_wrap .instruction h1 {
+          margin-bottom: 0.2rem;
+          font-size: 0.4rem; }
+        .hero .bg_wrap .instruction p {
+          font-size: 0.16rem; }
+      .hero .bg_wrap .form {
+        -webkit-flex: 0 1 45%;
+        flex: 0 1 45%;
+        max-width: 3.8rem;
+        padding: 0.1rem 0.2rem; }
+        .hero .bg_wrap .form h2 {
+          margin: 0.2rem 0;
+          font-size: 0.24rem; } }
+.section {
+  background-color: #193F6B;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff; }
+  .section .bg_mask {
+    background: rgba(25, 63, 107, 0.5); }
+
+.footer {
+  text-align: center; }
+  .footer .bg_wrap {
+    padding: 0.2rem 0; }
+  .footer a {
+    color: #FC8222; }
+  .footer p {
+    margin-top: 0.1rem;
+    color: #333; }
+
+/*marketo form style initialize*/
+.mktoForm {
+  width: auto !important; }
+
+.mktoFormRow .mktoOffset {
+  display: none !important; }
+
+.mktoFormRow .mktoFieldDescriptor {
+  float: none !important;
+  margin: 0 !important; }
+
+.mktoFormRow .mktoFieldWrap {
+  width: 100%; }
+
+.mktoFormRow .mktoLabel {
+  float: none !important;
+  display: none;
+  width: auto !important;
+  padding: 0 !important;
+  font-weight: normal !important; }
+
+.mktoFormRow .mktoLabel .mktoAsterix {
+  padding: 0 !important; }
+
+.mktoFormRow .mktoField {
+  box-sizing: border-box !important;
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  padding: 0.07rem 0.05rem !important;
+  margin: 0.08rem 0 !important;
+  border-radius: 0.04rem;
+  border: 1px solid #ccc; }
+
+.mktoFormRow input.mktoField {
+  padding-left: 0.09rem !important; }
+
+.mktoButtonRow {
+  display: block !important; }
+
+.mktoButtonRow .mktoButtonWrap {
+  display: block !important; }
+
+.mktoButtonRow button {
+  display: block;
+  width: 2.1rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin: 0.25rem auto 0.25rem !important;
+  padding: 0 !important;
+  border-radius: 0.04rem;
+  background: #193F6B;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 0.16rem; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>AMU UG General</title>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="renderer" content="webkit">
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!-- header -->
+<header class="header">
+	<div class="bg_wrap">
+		<h1><a href="https://global.auburn.edu/"><img src="images/logo.png" /></a></h1>
+		<p>
+			<a href="https://global.auburn.edu/about-auburn/">这就是奥本</a>
+			<a href="https://global.auburn.edu/map/">课程</a>
+			<a href="https://global.auburn.edu/blog/">博客</a>
+		</p>
+	</div>
+</header>
+<!-- header -->
+
+
+<!-- hero -->
+<div class="hero" style="background-image: url(images/hero.jpg)">
+	<div class="bg_mask">
+		<div class="bg_wrap">
+			<div class="instruction">
+				<h1>这就是奥本大学</h1>
+				<p>奥本大学拥有160多年的历史，以及多种广受全国认可的硕士课程，招聘我校毕业生的组织机构表示奥本大学的学生在专业水平、沟通技能以及准备上具有明显的优势</p>
+			</div>
+			<div class="form">
+				<h2>下载学生指南</h2>
+
+				<!-- marketo form -->
+				<script src="https://app-ab20.marketo.com/js/forms2/js/forms2.min.js"></script>
+				<form id="mktoForm_2849"></form>
+				<script>MktoForms2.loadForm("https://app-ab20.marketo.com", "553-ZUA-407", 2849);</script>
+				<script>
+			        // When successfully submitted, show popup window
+				    MktoForms2.whenReady(function (form) {
+				    	jQuery(".mktoButton").html("现在下载");
+				        form.onSuccess(function () {
+				            console.log("done →_→");
+				        });
+				    });
+				</script>
+				<!-- marketo form -->
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- hero -->
+
+
+<!-- section -->
+<section class="section" style="background-image: url(images/section_bg.jpg)">
+	<div class="bg_mask">
+		<div class="bg_wrap">
+			<p>section with some custom contents</p>
+		</div>
+	</div>
+</section>
+<!-- section -->
+
+
+<!-- footer -->
+<footer class="footer">
+	<div class="bg_wrap">
+		<a href="javascript:;">隐私声明</a> | <a href="javascript:;">Terms & Conditions</a>
+		<p>2018 Auburm Global All rights reserved</p>
+	</div>
+</footer>
+<!-- footer -->
+
+
+</body>
+</html>
