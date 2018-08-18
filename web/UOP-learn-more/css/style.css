@@ -17,17 +17,17 @@ body {
   background: #fff; }
 
 a {
-  color: #FC8222; }
+  color: #f47920; }
 
 input, textarea, button {
   font-family: -apple-system,Helvetica,Arial,"PingFang SC","Source Han Sans SC","Microsoft YaHei","WenQuanYi MicroHei",sans-serif; }
 
 ::selection {
-  background: #193F6B;
+  background: #f47920;
   color: #fff; }
 
 ::-moz-selection {
-  background: #193F6B;
+  background: #f47920;
   color: #fff; }
 
 @media only screen and (max-width: 767px) {
@@ -51,7 +51,7 @@ input, textarea, button {
     font-size: 0.34rem;
     font-weight: bold; } }
 .header {
-  background: #fff; }
+  background: #f47920; }
   .header .bg_wrap {
     display: -webkit-flex;
     display: flex;
@@ -69,7 +69,7 @@ input, textarea, button {
       height: 100%; }
     .header .bg_wrap p a {
       margin-left: 0.2rem;
-      color: #193F6B; }
+      color: #fff; }
 
 @media only screen and (max-width: 767px) {
   .header {
@@ -86,19 +86,19 @@ input, textarea, button {
     .header p a {
       font-size: 0.2rem; } }
 .hero {
-  background-color: #193F6B;
+  background-color: #f47920;
   background-repeat: no-repeat; }
-  .hero .bg_mask {
-    background: rgba(25, 63, 107, 0.5); }
-    .hero .bg_mask .bg_wrap .instruction {
-      color: #fff; }
-    .hero .bg_mask .bg_wrap .form {
-      overflow: hidden;
-      background: #fff;
-      border-radius: 0.04rem;
-      position: relative; }
-      .hero .bg_mask .bg_wrap .form h2 {
-        text-align: center; }
+  .hero .bg_mask .bg_wrap .instruction {
+    color: #fff; }
+    .hero .bg_mask .bg_wrap .instruction .video video {
+      width: 100%; }
+  .hero .bg_mask .bg_wrap .form {
+    overflow: hidden;
+    background: #fff;
+    border-radius: 0.04rem;
+    position: relative; }
+    .hero .bg_mask .bg_wrap .form h2 {
+      text-align: center; }
 
 @media only screen and (max-width: 767px) {
   .hero {
@@ -145,20 +145,20 @@ input, textarea, button {
           margin: 0.2rem 0;
           font-size: 0.24rem; } }
 .section {
-  background-color: #193F6B;
+  background-color: #f47920;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   color: #fff; }
   .section .bg_mask {
-    background: rgba(25, 63, 107, 0.5); }
+    background: rgba(244, 121, 32, 0.5); }
 
 .footer {
   text-align: center; }
   .footer .bg_wrap {
     padding: 0.2rem 0; }
   .footer a {
-    color: #FC8222; }
+    color: #f47920; }
   .footer p {
     margin-top: 0.1rem;
     color: #333; }
@@ -214,7 +214,7 @@ input, textarea, button {
   margin: 0.25rem auto 0.25rem !important;
   padding: 0 !important;
   border-radius: 0.04rem;
-  background: #193F6B;
+  background: #f47920;
   border: none;
   color: #fff;
   text-align: center;

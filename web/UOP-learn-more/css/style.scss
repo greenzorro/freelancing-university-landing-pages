@@ -3,10 +3,10 @@
 //*********************************************************************//
 
 // value settings
-$brand1: #193F6B;
-$brand2: #FC8222;
-$link: #FC8222;
-$mask: rgba(25,63,107,0.5);
+$brand1: #f47920;
+$brand2: #998c79;
+$link: #f47920;
+$mask: rgba(244,121,32,0.5);
 $white: #fff;
 $black: #333;
 $gray_dark: #ccc;
@@ -158,7 +158,7 @@ input, textarea, button {
 //*********************************************************************//
 
 .header {
-	background: $white;
+	background: $brand1;
 	.bg_wrap {
 		@include display-flex ();
 		@include flex-flow (row wrap);
@@ -174,7 +174,7 @@ input, textarea, button {
 		p {
 			a {
 				margin-left: 0.2rem;
-				color: $brand1;
+				color: $white;
 			}
 		}
 	}
@@ -215,10 +215,15 @@ input, textarea, button {
 	background-color: $brand1;
 	background-repeat: no-repeat;
 	.bg_mask {
-		background: $mask;
+		// background: $mask;
 		.bg_wrap {
 			.instruction {
 				color: $white;
+				.video {
+					video {
+						width: 100%;
+					}
+				}
 			}
 			.form {
 				overflow: hidden;
