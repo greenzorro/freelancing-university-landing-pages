@@ -311,6 +311,7 @@ input, textarea, button {
 @media only screen and (max-width: $phone-max){
 	.section1 {
 		p {
+			margin: 0.2rem 0;
 		}
 	}
 }
@@ -318,8 +319,8 @@ input, textarea, button {
 @media only screen and (min-width: $pad-min){
 	.section1 {
 		p {
-			width: 80%;
-			margin: auto;
+			width: 70%;
+			margin: 0.2rem auto;
 		}
 	}
 }
@@ -470,7 +471,7 @@ input, textarea, button {
 @media only screen and (min-width: $pad-min){
 	.section3 {
 		.intro {
-			width: 80%;
+			width: 70%;
 			margin: auto;
 		}
 		h3 {
@@ -633,12 +634,7 @@ input, textarea, button {
 @media only screen and (min-width: $pad-min){
 	.section5 {
 		h2 {
-			text-align: right;
-		}
-		ul {
-			text-align: right;
-			li {
-			}
+			text-align: left;
 		}
 	}
 }
@@ -753,6 +749,7 @@ input, textarea, button {
 		@include display-flex ();
 		@include align-items (flex-start);
 		@include flex-flow (row wrap);
+		border-bottom: 1px solid lighten($brand2,15%);
 		li {
 			padding: 0.2rem;
 			background: $white;
@@ -760,9 +757,7 @@ input, textarea, button {
 			box-shadow: $shadow;
 			text-align: center;
 			position: relative;
-			b {
-				display: block;
-				margin: 0 0 0.2rem;
+			h3 {
 				font-weight: bold;
 			}
 			p {
@@ -781,6 +776,31 @@ input, textarea, button {
 			}
 		}
 	}
+	.other {
+		padding: 0.2rem;
+		background: $white;
+		border-radius: $radius;
+		box-shadow: $shadow;
+		position: relative;
+		h3 {
+			font-weight: bold;
+		}
+		p {
+			padding: 0.1rem 0;
+			text-align: left;
+			font-size: 0.12rem;
+		}
+		a {
+			display: inline-block;
+			width: 1.2rem;
+			height: 0.36rem;
+			line-height: 0.36rem;
+			border-radius: $radius;
+			background: $brand1;
+			color: $white;
+			text-align: center;
+		}
+	}
 }
 // phone
 @media only screen and (max-width: $phone-max){
@@ -790,10 +810,14 @@ input, textarea, button {
 		}
 		ul {
 			@include justify-content (center);
+			margin-bottom: 0.2rem;
 			li {
 				@include flex (0 1 100%);
 				margin-bottom: 0.2rem;
 			}
+		}
+		.other {
+			text-align: center;
 		}
 	}
 }
@@ -801,20 +825,34 @@ input, textarea, button {
 @media only screen and (min-width: $pad-min){
 	.section7 {
 		.intro {
-			margin-bottom: 0.4rem;
+			width: 70%;
+			margin: 0 auto 0.4rem;
 			text-align: center;
 		}
 		ul {
 			@include justify-content (space-between);
+			padding-bottom: 0.3rem;
+			margin-bottom: 0.3rem;
 			li {
-				@include flex (0 1 20%);
-				min-height: 2.8rem;
+				@include flex (0 1 28%);
+				min-height: 2.2rem;
 				a {
 					position: absolute;
 					left: 50%;
 					bottom: 0.25rem;
 					@include transform (translate(-50%, 0));
 				}
+			}
+		}
+		.other {
+			p {
+				padding-bottom: 0;
+			}
+			a {
+				position: absolute;
+				right: 0.2rem;
+				top: 50%;
+					@include transform (translate(0, -50%));
 			}
 		}
 	}
