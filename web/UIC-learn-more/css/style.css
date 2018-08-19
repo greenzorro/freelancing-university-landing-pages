@@ -223,8 +223,8 @@ input, textarea, button {
   .section3 .bg_mask ul {
     display: -webkit-flex;
     display: flex;
-    -webkit-align-items: flex-start;
-    align-items: flex-start; }
+    -webkit-align-items: center;
+    align-items: center; }
     .section3 .bg_mask ul li {
       text-align: center; }
       .section3 .bg_mask ul li p {
@@ -261,8 +261,8 @@ input, textarea, button {
   .section4 .bg_mask ul {
     display: -webkit-flex;
     display: flex;
-    -webkit-align-items: flex-start;
-    align-items: flex-start; }
+    -webkit-align-items: center;
+    align-items: center; }
     .section4 .bg_mask ul li {
       text-align: center; }
       .section4 .bg_mask ul li p {
