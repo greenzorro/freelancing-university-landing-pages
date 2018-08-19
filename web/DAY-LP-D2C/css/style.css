@@ -89,7 +89,7 @@ input, textarea, button {
   background-color: #CE1141;
   background-repeat: no-repeat; }
   .hero .bg_mask {
-    background: rgba(206, 17, 65, 0.5); }
+    background: rgba(206, 17, 65, 0.6); }
     .hero .bg_mask .bg_wrap .instruction {
       color: #fff; }
     .hero .bg_mask .bg_wrap .form {
