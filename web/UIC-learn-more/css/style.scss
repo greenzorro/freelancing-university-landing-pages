@@ -585,7 +585,6 @@ input, textarea, button {
 				}
 				img {
 					width: 1rem;
-					border-radius: 50%;
 					left: 50%;
 					top: -0.5rem;
 					@include transform (translate(-50%,0));
