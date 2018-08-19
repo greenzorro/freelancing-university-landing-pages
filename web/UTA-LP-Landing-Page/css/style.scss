@@ -7,7 +7,7 @@ $brand1: #cc0000;
 $brand2: #cc0000;
 $link: #cc0000;
 $mask: rgba(55,55,55,0.5);
-$mask2: rgba(204,0,0,0.7);
+$mask2: rgba(204,0,0,0.8);
 $white: #fff;
 $black: #333;
 $gray_dark: #ccc;
@@ -344,6 +344,11 @@ input, textarea, button {
 				}
 			}
 		}
+		.video {
+			video {
+				width: 100%;
+			}
+		}
 	}
 }
 // phone
@@ -356,6 +361,9 @@ input, textarea, button {
 				margin: 0.2rem 0;
 			}
 		}
+		.video {
+			margin-top: 0.2rem;
+		}
 	}
 }
 // pad and pc
@@ -367,6 +375,9 @@ input, textarea, button {
 			li {
 				@include flex (0 1 30%);
 			}
+		}
+		.video {
+			margin-top: 0.4rem;
 		}
 	}
 }

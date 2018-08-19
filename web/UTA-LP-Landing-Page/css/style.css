@@ -180,6 +180,8 @@ input, textarea, button {
         margin: 0.1rem 0;
         font-size: 0.18rem;
         font-weight: bold; }
+  .section2 .bg_mask .video video {
+    width: 100%; }
 
 @media only screen and (max-width: 767px) {
   .section2 ul {
@@ -188,7 +190,9 @@ input, textarea, button {
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap; }
     .section2 ul li {
-      margin: 0.2rem 0; } }
+      margin: 0.2rem 0; }
+  .section2 .video {
+    margin-top: 0.2rem; } }
 @media only screen and (min-width: 768px) {
   .section2 ul {
     -webkit-justify-content: space-between;
@@ -197,7 +201,9 @@ input, textarea, button {
     flex-flow: row wrap; }
     .section2 ul li {
       -webkit-flex: 0 1 30%;
-      flex: 0 1 30%; } }
+      flex: 0 1 30%; }
+  .section2 .video {
+    margin-top: 0.4rem; } }
 .action {
   background: #cc0000; }
   .action .bg_wrap {
@@ -342,7 +348,7 @@ input, textarea, button {
   background-size: cover;
   color: #fff; }
   .section5 .bg_mask {
-    background: rgba(204, 0, 0, 0.7); }
+    background: rgba(204, 0, 0, 0.8); }
     .section5 .bg_mask h2 {
       color: #fff; }
     .section5 .bg_mask ul li b {
