@@ -144,24 +144,186 @@ input, textarea, button {
         .hero .bg_wrap .form h2 {
           margin: 0.2rem 0;
           font-size: 0.24rem; } }
-.section {
-  background-color: #f47920;
+.section2 {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #333; }
+  .section2 .bg_mask ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center; }
+    .section2 .bg_mask ul li {
+      text-align: center; }
+      .section2 .bg_mask ul li h3 {
+        margin: 0.1rem 0;
+        font-size: 0.18rem;
+        font-weight: bold; }
+
+@media only screen and (max-width: 767px) {
+  .section2 ul {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap; }
+    .section2 ul li {
+      margin: 0.2rem 0; } }
+@media only screen and (min-width: 768px) {
+  .section2 ul {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap; }
+    .section2 ul li {
+      -webkit-flex: 0 1 30%;
+      flex: 0 1 30%; } }
+.section3 {
+  background-color: #fff;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   color: #fff; }
-  .section .bg_mask {
-    background: rgba(244, 121, 32, 0.5); }
+  .section3 .bg_mask ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center; }
+    .section3 .bg_mask ul li {
+      text-align: center; }
+      .section3 .bg_mask ul li p {
+        margin-top: 0.1rem; }
 
+@media only screen and (max-width: 767px) {
+  .section3 ul {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    margin: 0.2rem 0 0; }
+    .section3 ul li {
+      margin: 0.2rem 0; } }
+@media only screen and (min-width: 768px) {
+  .section3 .intro {
+    width: 70%;
+    margin: 0 auto 0.4rem; }
+  .section3 ul {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 0.6rem 0 0.2rem; }
+    .section3 ul li {
+      -webkit-flex: 0 1 30%;
+      flex: 0 1 30%; } }
+.section4 {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff; }
+  .section4 .bg_mask ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center; }
+    .section4 .bg_mask ul li {
+      text-align: center; }
+      .section4 .bg_mask ul li p {
+        margin-top: 0.1rem; }
+
+@media only screen and (max-width: 767px) {
+  .section4 ul {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    margin: 0.2rem 0 0; }
+    .section4 ul li {
+      margin: 0.2rem 0; } }
+@media only screen and (min-width: 768px) {
+  .section4 .intro {
+    width: 70%;
+    margin: 0 auto 0.4rem; }
+  .section4 ul {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 0.6rem 0 0.2rem; }
+    .section4 ul li {
+      -webkit-flex: 0 1 30%;
+      flex: 0 1 30%; } }
+.section5 {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff; }
+  .section5 .bg_mask ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center; }
+    .section5 .bg_mask ul li {
+      text-align: center; }
+      .section5 .bg_mask ul li p {
+        margin-top: 0.1rem; }
+
+@media only screen and (max-width: 767px) {
+  .section5 ul {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    margin: 0.2rem 0 0; }
+    .section5 ul li {
+      margin: 0.2rem 0; } }
+@media only screen and (min-width: 768px) {
+  .section5 .intro {
+    width: 70%;
+    margin: 0 auto 0.4rem; }
+  .section5 ul {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 0.6rem 0 0.2rem; }
+    .section5 ul li {
+      -webkit-flex: 0 1 30%;
+      flex: 0 1 30%; } }
+.section6 {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff; }
+
+@media only screen and (max-width: 767px) {
+  .section6 p {
+    margin: 0.2rem 0; } }
+@media only screen and (min-width: 768px) {
+  .bg_wrap {
+    padding: 1rem 0; }
+
+  .section6 p {
+    width: 70%;
+    margin: 0.2rem auto;
+    text-align: center; } }
 .footer {
+  background: #333;
+  color: #fff;
   text-align: center; }
   .footer .bg_wrap {
     padding: 0.2rem 0; }
+  .footer img {
+    width: 1.2rem; }
   .footer a {
     color: #f47920; }
   .footer p {
-    margin-top: 0.1rem;
-    color: #333; }
+    margin: 0.1rem 0;
+    color: #fff; }
 
 /*marketo form style initialize*/
 .mktoForm {

@@ -4,7 +4,7 @@
 
 // value settings
 $brand1: #f47920;
-$brand2: #998c79;
+$brand2: #f47920;
 $link: #f47920;
 $mask: rgba(244,121,32,0.5);
 $white: #fff;
@@ -299,27 +299,268 @@ input, textarea, button {
 
 
 //*********************************************************************//
-//                               section
+//                               section2
 //*********************************************************************//
 
-.section {
-	background-color: $brand1;
+.section2 {
+	background-color: $white;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: $black;
+	.bg_mask {
+		// background: $mask;
+		ul {
+			@include display-flex ();
+			@include align-items (center);
+			li {
+				text-align: center;
+				h3 {
+					margin: 0.1rem 0;
+					font-size: 0.18rem;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+// phone
+@media only screen and (max-width: $phone-max){
+	.section2 {
+		ul {
+			@include justify-content (space-between);
+			@include flex-flow (column wrap);
+			li {
+				margin: 0.2rem 0;
+			}
+		}
+	}
+}
+// pad and pc
+@media only screen and (min-width: $pad-min){
+	.section2 {
+		ul {
+			@include justify-content (space-between);
+			@include flex-flow (row wrap);
+			li {
+				@include flex (0 1 30%);
+			}
+		}
+	}
+}
+
+
+
+
+//*********************************************************************//
+//                               section3
+//*********************************************************************//
+
+.section3 {
+	background-color: $white;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	color: $white;
 	.bg_mask {
-		background: $mask;
+		// background: $mask;
+		ul {
+			@include display-flex ();
+			@include align-items (center);
+			li {
+				text-align: center;
+				p {
+					margin-top: 0.1rem;
+				}
+			}
+		}
 	}
 }
 // phone
 @media only screen and (max-width: $phone-max){
-	.section {
+	.section3 {
+		ul {
+			@include justify-content (space-between);
+			@include flex-flow (column wrap);
+			margin: 0.2rem 0 0;
+			li {
+				margin: 0.2rem 0;
+			}
+		}
 	}
 }
 // pad and pc
 @media only screen and (min-width: $pad-min){
-	.section {
+	.section3 {
+		.intro {
+			width: 70%;
+			margin: 0 auto 0.4rem;
+		}
+		ul {
+			@include justify-content (space-between);
+			@include flex-flow (row wrap);
+			margin: 0.6rem 0 0.2rem;
+			li {
+				@include flex (0 1 30%);
+			}
+		}
+	}
+}
+
+
+
+
+//*********************************************************************//
+//                               section4
+//*********************************************************************//
+
+.section4 {
+	background-color: $white;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: $white;
+	.bg_mask {
+		// background: $mask;
+		ul {
+			@include display-flex ();
+			@include align-items (center);
+			li {
+				text-align: center;
+				p {
+					margin-top: 0.1rem;
+				}
+			}
+		}
+	}
+}
+// phone
+@media only screen and (max-width: $phone-max){
+	.section4 {
+		ul {
+			@include justify-content (space-between);
+			@include flex-flow (column wrap);
+			margin: 0.2rem 0 0;
+			li {
+				margin: 0.2rem 0;
+			}
+		}
+	}
+}
+// pad and pc
+@media only screen and (min-width: $pad-min){
+	.section4 {
+		.intro {
+			width: 70%;
+			margin: 0 auto 0.4rem;
+		}
+		ul {
+			@include justify-content (space-between);
+			@include flex-flow (row wrap);
+			margin: 0.6rem 0 0.2rem;
+			li {
+				@include flex (0 1 30%);
+			}
+		}
+	}
+}
+
+
+
+
+//*********************************************************************//
+//                               section5
+//*********************************************************************//
+
+.section5 {
+	background-color: $white;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: $white;
+	.bg_mask {
+		// background: $mask;
+		ul {
+			@include display-flex ();
+			@include align-items (center);
+			li {
+				text-align: center;
+				p {
+					margin-top: 0.1rem;
+				}
+			}
+		}
+	}
+}
+// phone
+@media only screen and (max-width: $phone-max){
+	.section5 {
+		ul {
+			@include justify-content (space-between);
+			@include flex-flow (column wrap);
+			margin: 0.2rem 0 0;
+			li {
+				margin: 0.2rem 0;
+			}
+		}
+	}
+}
+// pad and pc
+@media only screen and (min-width: $pad-min){
+	.section5 {
+		.intro {
+			width: 70%;
+			margin: 0 auto 0.4rem;
+		}
+		ul {
+			@include justify-content (space-between);
+			@include flex-flow (row wrap);
+			margin: 0.6rem 0 0.2rem;
+			li {
+				@include flex (0 1 30%);
+			}
+		}
+	}
+}
+
+
+
+
+//*********************************************************************//
+//                               section6
+//*********************************************************************//
+
+.section6 {
+	background-color: $white;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: $white;
+	.bg_mask {
+		// background: $mask;
+		p {
+		}
+	}
+}
+// phone
+@media only screen and (max-width: $phone-max){
+	.section6 {
+		p {
+			margin: 0.2rem 0;
+		}
+	}
+}
+// pad and pc
+@media only screen and (min-width: $pad-min){
+	.bg_wrap {
+		padding: 1rem 0;
+	}
+	.section6 {
+		p {
+			width: 70%;
+			margin: 0.2rem auto;
+			text-align: center;
+		}
 	}
 }
 
@@ -331,16 +572,21 @@ input, textarea, button {
 //*********************************************************************//
 
 .footer {
+	background: $black;
+	color: $white;
 	text-align: center;
 	.bg_wrap {
 		padding: 0.2rem 0;
+	}
+	img {
+		width: 1.2rem;
 	}
 	a {
 		color: $link;
 	}
 	p {
-		margin-top: 0.1rem;
-		color: $black;
+		margin: 0.1rem 0;
+		color: $white;
 	}
 }
 
