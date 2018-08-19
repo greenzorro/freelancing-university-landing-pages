@@ -321,14 +321,16 @@ input, textarea, button {
   background-position: center center;
   background-size: cover;
   color: #fff; }
-  .section4 .bg_mask h2 {
-    color: #fff; }
-  .section4 .bg_mask ul li span {
-    display: inline-block;
-    padding: 0.1rem 0.15rem;
-    margin: 0.05rem 0;
-    background: #CE1141;
-    border-radius: 0.04rem; }
+  .section4 .bg_mask {
+    background: rgba(35, 35, 35, 0.5); }
+    .section4 .bg_mask h2 {
+      color: #fff; }
+    .section4 .bg_mask ul li span {
+      display: inline-block;
+      padding: 0.1rem 0.15rem;
+      margin: 0.05rem 0;
+      background: #CE1141;
+      border-radius: 0.04rem; }
 
 @media only screen and (max-width: 767px) {
   .section4 .intro {

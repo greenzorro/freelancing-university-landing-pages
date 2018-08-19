@@ -8,6 +8,7 @@ $brand2: #008FD4;
 $link: #CE1141;
 $mask: rgba(206,17,65,0.6);
 $mask2: rgba(0,143,212,0.5);
+$mask3: rgba(35,35,35,0.5);
 $white: #fff;
 $black: #333;
 $gray_dark: #ccc;
@@ -577,7 +578,7 @@ input, textarea, button {
 	background-size: cover;
 	color: $white;
 	.bg_mask {
-		// background: $mask;
+		background: $mask3;
 		h2 {
 			color: $white;
 		}

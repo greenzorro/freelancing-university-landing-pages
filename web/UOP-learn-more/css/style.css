@@ -299,6 +299,8 @@ input, textarea, button {
   background-position: center center;
   background-size: cover;
   color: #fff; }
+  .section6 .bg_mask p {
+    text-align: center; }
 
 @media only screen and (max-width: 767px) {
   .section6 p {
@@ -309,8 +311,7 @@ input, textarea, button {
 
   .section6 p {
     width: 70%;
-    margin: 0.2rem auto;
-    text-align: center; } }
+    margin: 0.2rem auto; } }
 .footer {
   background: #333;
   color: #fff;

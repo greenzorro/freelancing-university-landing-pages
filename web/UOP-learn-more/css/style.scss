@@ -539,6 +539,7 @@ input, textarea, button {
 	.bg_mask {
 		// background: $mask;
 		p {
+			text-align: center;
 		}
 	}
 }
@@ -559,7 +560,6 @@ input, textarea, button {
 		p {
 			width: 70%;
 			margin: 0.2rem auto;
-			text-align: center;
 		}
 	}
 }
