@@ -68,22 +68,22 @@ input, textarea, button {
       height: 100%;
       position: relative;
       left: 0;
-      top: 50%; }
+      top: 30%; }
     .header .bg_wrap img {
       display: block;
-      height: 100%; }
+      height: 120%; }
     .header .bg_wrap p a {
       margin-left: 0.2rem;
       color: #fff; }
 
 @media only screen and (max-width: 767px) {
   .header {
-    height: 0.5rem; }
+    height: 0.4rem; }
     .header p a {
       font-size: 0.12rem; } }
 @media only screen and (min-width: 768px) {
   .header {
-    height: 0.8rem; }
+    height: 0.6rem; }
     .header p a {
       font-size: 0.2rem; } }
 .hero {
