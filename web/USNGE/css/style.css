@@ -51,7 +51,7 @@ input, textarea, button {
     font-size: 0.34rem;
     font-weight: bold; } }
 .header {
-  background: #fff; }
+  background: #1563A3; }
   .header .bg_wrap {
     display: -webkit-flex;
     display: flex;
@@ -64,38 +64,33 @@ input, textarea, button {
     height: 100%;
     padding-top: 0;
     padding-bottom: 0; }
+    .header .bg_wrap h1 {
+      height: 100%;
+      position: relative;
+      left: 0;
+      top: 50%; }
     .header .bg_wrap img {
       display: block;
       height: 100%; }
     .header .bg_wrap p a {
       margin-left: 0.2rem;
-      color: #1563A3; }
+      color: #fff; }
 
 @media only screen and (max-width: 767px) {
   .header {
     height: 0.5rem; }
-    .header h1 {
-      height: 40%; }
     .header p a {
       font-size: 0.12rem; } }
 @media only screen and (min-width: 768px) {
   .header {
     height: 0.8rem; }
-    .header h1 {
-      height: 50%; }
     .header p a {
       font-size: 0.2rem; } }
 .hero {
   background-color: #1563A3;
   background-repeat: no-repeat; }
   .hero .bg_mask {
-    background: rgba(35, 35, 35, 0.5);
-    position: relative; }
-    .hero .bg_mask .bg_wrap .logo {
-      position: absolute;
-      z-index: 5; }
-      .hero .bg_mask .bg_wrap .logo img {
-        width: 100%; }
+    background: rgba(35, 35, 35, 0.5); }
     .hero .bg_mask .bg_wrap .instruction {
       color: #fff; }
 
@@ -103,18 +98,14 @@ input, textarea, button {
   .hero {
     background-position: center top;
     background-size: 300%; }
-    .hero .bg_mask {
-      padding-top: 0.4rem; }
-    .hero .bg_wrap .logo {
-      width: 2rem;
-      left: 0.2rem;
-      top: 0; }
     .hero .bg_wrap .instruction {
       padding-bottom: 0.2rem; }
       .hero .bg_wrap .instruction h1 {
         margin: 0.3rem 0;
         text-align: center;
-        font-size: 0.3rem; } }
+        font-size: 0.24rem; }
+        .hero .bg_wrap .instruction h1 small {
+          font-size: 0.2rem; } }
 @media only screen and (min-width: 768px) {
   .hero {
     background-position: center center;
@@ -128,9 +119,6 @@ input, textarea, button {
       flex-flow: row wrap;
       -webkit-align-items: center;
       align-items: center; }
-      .hero .bg_wrap .logo {
-        left: 0.4rem;
-        top: 0; }
       .hero .bg_wrap .instruction {
         -webkit-flex: 0 1 70%;
         flex: 0 1 70%; }
