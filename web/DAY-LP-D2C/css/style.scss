@@ -39,9 +39,6 @@ $pc-min: 1280px;
 @mixin transition-transform ($value1,$value2) {
 	-webkit-transition: -webkit-transform $value1 $value2;
 	transition: transform $value1 $value2;}
-@mixin prefix-transition ($value) {
-	-webkit-transition: -webkit-$value;
-	transition: $value;}
 @mixin animation ($value) {
 	-webkit-animation: $value;
 	animation: $value;}
