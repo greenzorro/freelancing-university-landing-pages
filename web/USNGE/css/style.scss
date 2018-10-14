@@ -303,18 +303,114 @@ input, textarea, button {
 						font-weight: bold;
 					}
 				}
-				ul {
-					padding-left: 0.2rem;
-					li {
-						padding: 0.05rem 0;
-						border-bottom: 1px solid lighten($brand1,50%);
-						list-style: disc;
-					}
-				}
 				i {
 					font-style: italic;
 					font-size: 0.14rem;
 					color: #999;
+				}
+				.part1 {
+					ul {
+						padding-left: 0.2rem;
+						li {
+							padding: 0.05rem 0;
+							border-bottom: 1px solid lighten($brand1,50%);
+							list-style: disc;
+						}
+					}
+				}
+				.part2 {
+					.step {
+						margin: 0.1rem 0;
+						background-repeat: no-repeat;
+						background-position: center center;
+						background-size: cover;
+						border-radius: $radius;
+						overflow: hidden;
+						color: $white;
+						h4 {
+							margin-bottom: 0.1rem;
+							font-weight: bold;
+						}
+						p {
+							margin: 0;
+						}
+					}
+					.step_wrap {
+						padding: 0.2rem;
+						background: $mask2;
+					}
+					.step1 {
+						background-image: url(../images/step1.jpg);
+					}
+					.step2 {
+						background-image: url(../images/step2.jpg);
+					}
+					.step3 {
+						background-image: url(../images/step3.jpg);
+					}
+					.step4 {
+						background-image: url(../images/step4.jpg);
+					}
+					.step5 {
+						background-image: url(../images/step5.jpg);
+					}
+				}
+				.part3 {
+					table {
+						width: 100%;
+						font-size: 0.14rem;
+						text-align: center;
+						thead {
+							background: $brand1;
+							color: $white;
+							tr {
+								th {
+									padding: 0.1rem 0;
+									font-weight: bold;
+									vertical-align: middle;
+								}
+							}
+						}
+						tbody {
+							tr {
+								td {
+									padding: 0.1rem 0;
+									vertical-align: middle;
+									img {
+										width: auto;
+										height: auto;
+									}
+								}
+							}
+							tr:nth-child(even) {
+								background: lighten($brand1,61%);
+							}
+						}
+					}
+					ul {
+						li {
+							padding: 0.2rem 0;
+							border-top: 1px solid $gray_dark;
+							img {
+								width: auto;
+								height: auto;
+							}
+							h4 {
+								margin-bottom: 0.1rem;
+								font-weight: bold;
+								font-size: 0.2rem;
+							}
+							b {
+								display: block;
+								font-weight: bold;
+								font-size: 0.14rem;
+							}
+							p {
+								margin: 0 0 0.1rem;
+								font-size: 0.14rem;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -329,6 +425,12 @@ input, textarea, button {
 	.section1 {
 		.left {
 			margin-bottom: 0.2rem;
+			.part {
+				padding-bottom: 0.1rem;
+			}
+			.part3 table {
+				display: none;
+			}
 		}
 		.right {
 			.form {
@@ -336,6 +438,11 @@ input, textarea, button {
 				h2 {
 					padding: 0.2rem 0 0;
 					margin: 0;
+					font-size: 0.16rem;
+				}
+				p {
+					padding: 0.1rem 0;
+					text-align: center;
 				}
 			}
 		}
@@ -347,6 +454,12 @@ input, textarea, button {
 		.left {
 			float: left;
 			width: 60%;
+			.part {
+				padding-bottom: 0.2rem;
+			}
+			.part3 ul {
+				display: none;
+			}
 		}
 		.right {
 			float: right;
@@ -354,9 +467,14 @@ input, textarea, button {
 			.form {
 				padding: 0.1rem 0.2rem;
 				h2 {
-					padding: 0.2rem 0;
+					padding: 0.2rem 0 0.1rem;
 					margin: 0;
-					font-size: 0.24rem;
+					font-size: 0.20rem;
+				}
+				p {
+					padding: 0 0 0.2rem;
+					text-align: center;
+					font-size: 0.14rem;
 				}
 			}
 		}

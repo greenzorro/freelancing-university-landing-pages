@@ -150,16 +150,78 @@ input, textarea, button {
         margin: 0.2rem 0; }
         .section1 .bg_mask .left .content p b {
           font-weight: bold; }
-      .section1 .bg_mask .left .content ul {
-        padding-left: 0.2rem; }
-        .section1 .bg_mask .left .content ul li {
-          padding: 0.05rem 0;
-          border-bottom: 1px solid #c0def7;
-          list-style: disc; }
       .section1 .bg_mask .left .content i {
         font-style: italic;
         font-size: 0.14rem;
         color: #999; }
+      .section1 .bg_mask .left .content .part1 ul {
+        padding-left: 0.2rem; }
+        .section1 .bg_mask .left .content .part1 ul li {
+          padding: 0.05rem 0;
+          border-bottom: 1px solid #c0def7;
+          list-style: disc; }
+      .section1 .bg_mask .left .content .part2 .step {
+        margin: 0.1rem 0;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 0.04rem;
+        overflow: hidden;
+        color: #fff; }
+        .section1 .bg_mask .left .content .part2 .step h4 {
+          margin-bottom: 0.1rem;
+          font-weight: bold; }
+        .section1 .bg_mask .left .content .part2 .step p {
+          margin: 0; }
+      .section1 .bg_mask .left .content .part2 .step_wrap {
+        padding: 0.2rem;
+        background: rgba(35, 35, 35, 0.5); }
+      .section1 .bg_mask .left .content .part2 .step1 {
+        background-image: url(../images/step1.jpg); }
+      .section1 .bg_mask .left .content .part2 .step2 {
+        background-image: url(../images/step2.jpg); }
+      .section1 .bg_mask .left .content .part2 .step3 {
+        background-image: url(../images/step3.jpg); }
+      .section1 .bg_mask .left .content .part2 .step4 {
+        background-image: url(../images/step4.jpg); }
+      .section1 .bg_mask .left .content .part2 .step5 {
+        background-image: url(../images/step5.jpg); }
+      .section1 .bg_mask .left .content .part3 table {
+        width: 100%;
+        font-size: 0.14rem;
+        text-align: center; }
+        .section1 .bg_mask .left .content .part3 table thead {
+          background: #1563A3;
+          color: #fff; }
+          .section1 .bg_mask .left .content .part3 table thead tr th {
+            padding: 0.1rem 0;
+            font-weight: bold;
+            vertical-align: middle; }
+        .section1 .bg_mask .left .content .part3 table tbody tr td {
+          padding: 0.1rem 0;
+          vertical-align: middle; }
+          .section1 .bg_mask .left .content .part3 table tbody tr td img {
+            width: auto;
+            height: auto; }
+        .section1 .bg_mask .left .content .part3 table tbody tr:nth-child(even) {
+          background: #f2f8fd; }
+      .section1 .bg_mask .left .content .part3 ul li {
+        padding: 0.2rem 0;
+        border-top: 1px solid #ddd; }
+        .section1 .bg_mask .left .content .part3 ul li img {
+          width: auto;
+          height: auto; }
+        .section1 .bg_mask .left .content .part3 ul li h4 {
+          margin-bottom: 0.1rem;
+          font-weight: bold;
+          font-size: 0.2rem; }
+        .section1 .bg_mask .left .content .part3 ul li b {
+          display: block;
+          font-weight: bold;
+          font-size: 0.14rem; }
+        .section1 .bg_mask .left .content .part3 ul li p {
+          margin: 0 0 0.1rem;
+          font-size: 0.14rem; }
   .section1 .bg_mask .right {
     background: #fff;
     border-radius: 0.04rem; }
@@ -167,24 +229,40 @@ input, textarea, button {
 @media only screen and (max-width: 767px) {
   .section1 .left {
     margin-bottom: 0.2rem; }
+    .section1 .left .part {
+      padding-bottom: 0.1rem; }
+    .section1 .left .part3 table {
+      display: none; }
   .section1 .right .form {
     padding: 0 0.1rem; }
     .section1 .right .form h2 {
       padding: 0.2rem 0 0;
-      margin: 0; } }
+      margin: 0;
+      font-size: 0.16rem; }
+    .section1 .right .form p {
+      padding: 0.1rem 0;
+      text-align: center; } }
 @media only screen and (min-width: 768px) {
   .section1 .left {
     float: left;
     width: 60%; }
+    .section1 .left .part {
+      padding-bottom: 0.2rem; }
+    .section1 .left .part3 ul {
+      display: none; }
   .section1 .right {
     float: right;
     width: 38%; }
     .section1 .right .form {
       padding: 0.1rem 0.2rem; }
       .section1 .right .form h2 {
-        padding: 0.2rem 0;
+        padding: 0.2rem 0 0.1rem;
         margin: 0;
-        font-size: 0.24rem; } }
+        font-size: 0.20rem; }
+      .section1 .right .form p {
+        padding: 0 0 0.2rem;
+        text-align: center;
+        font-size: 0.14rem; } }
 .footer {
   text-align: center; }
   .footer .bg_wrap {
